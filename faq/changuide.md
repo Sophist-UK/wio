@@ -126,8 +126,8 @@ some more specific tips.
 
 You can combine many mode changes on one line (typically 4). For instance, if
 you want to give four people ops, you can: `/mode #mychan +oooo nick1 nick2
-nick3 nick4`. You can also combine + and - modes, such as `/mode #mychan +vv-
-vv nick1 nick2 nick3 nick4` would give voice to nick1 and nick2, but take it
+nick3 nick4`. You can also combine + and - modes, such as `/mode #mychan +vv 
+-vv nick1 nick2 nick3 nick4` would give voice to nick1 and nick2, but take it
 away from nick3 and nick4. Likewise, `/mode #channel +sti-lm` would activate
 secret, topic, and invite-only modes, and deactivate the limit and moderated
 modes. If you are defending against an attack, it may be necessary to use
